@@ -7,6 +7,9 @@ My attempts at the [Advent of Code](https://adventofcode.com)
 - [Node.js >= 14](https://nodejs.org/en/)
 
 ## Usage
+```
+node index.js
+```
 
 ### a. Importing a year's puzzles
 Every puzzle is contained within its own unique folder, which is then encompassed by an overarching folder for the year's puzzles. 
