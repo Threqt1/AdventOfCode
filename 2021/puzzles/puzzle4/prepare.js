@@ -2,8 +2,8 @@ const fs = require('fs')
 const path = require('path')
 
 exports.run = function (input) {
-    const _puzzle4Input = (input || fs.readFileSync(path.join(__dirname, "puzzle4.txt"), "utf8")).split('\n')
-    const puzzle4Input = [_puzzle4Input[0].replace(/\r/g, ''), []]
+    const _puzzle4Input = (input || fs.readFileSync(path.join(__dirname, "puzzle4.txt"), "utf8")).split('\n').map(r => r.trim())
+    const puzzle4Input = [_puzzle4Input[0], []]
     const bingoBoards = _puzzle4Input.slice(2);
     let board = [];
     for (let line of bingoBoards) {
