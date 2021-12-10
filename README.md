@@ -1,12 +1,12 @@
-# AdventOfCode Attempts by Threqt 
+# 🎄 AdventOfCode Attempts by Threqt 
 <img src="https://img.shields.io/badge/language-javascript-yellow">
 
 My attempts at the [Advent of Code](https://adventofcode.com)
 
-## Requirements
+## 📋 Requirements
 - [Node.js >= 14](https://nodejs.org/en/)
 
-## Usage
+## 💻 Usage
 ```
 node index.js
 ```
