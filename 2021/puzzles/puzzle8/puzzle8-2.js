@@ -1,18 +1,9 @@
 exports.run = function (input1) {
   let input = require("./prepare").run(input1);
   let sum = 0;
-  /*
-
-9: one, four
-3: one, 1four
-5: 1one, four
-2: 1one, 1four
-6: 1one, 2four
-    */
   for (let output of input) {
     let one = output[0].find((r) => r.length === 2).split("");
     let four = output[0].find((r) => r.length === 4).split("");
-    let seven = output[0].find((r) => r.length === 3).split("");
     let fourNotOne = four.filter((r) => one.includes(r) === false);
     let decryptedNumber = "";
     for (let number of output[1]) {
